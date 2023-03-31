@@ -27,11 +27,10 @@ function getComputerChoice() {
     randomChoice = choices[Math.floor(Math.random()*choices.length)];
     return randomChoice;
 }
+
 //function for calling other functions for rounds
-function playRound(playerSelection, computerChoice) {
-    return compareChoices(playerSelection, computerChoice);
-    
-}
+let playRound = (playerSelection, computerChoice) => compareChoices(playerSelection,computerChoice);
+
 //function for comparing user's input and computer's choice
 function compareChoices(playerSelection, computerChoice) {
 
@@ -76,4 +75,5 @@ function compareChoices(playerSelection, computerChoice) {
     }
 }
 //return the result
+console.log(playRound(playerSelection, computerChoice));
 
