@@ -1,6 +1,6 @@
 # rock_paper_scissors
 
-Game where you play
+Game where you play with computer as your opponent. 
 
 What I learned through this project -
 
