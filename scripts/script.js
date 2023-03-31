@@ -76,4 +76,3 @@ function compareChoices(playerSelection, computerChoice) {
 }
 //return the result
 console.log(playRound(playerSelection, computerChoice));
-
