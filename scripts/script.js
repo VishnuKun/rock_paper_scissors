@@ -1,7 +1,7 @@
 //take user input
-let playerSelection = "rock";
+const playerSelection = "rock";
 //covert input into lowercase letters
-playerSelection == playerSelection.toLocaleLowerCase();
+playerSelection.toLocaleLowerCase();
 //check input's validity and call playRound if its valid
 function validity(playerSelection) {
     switch (playerSelection) {
@@ -76,4 +76,4 @@ function compareChoices(playerSelection, computerChoice) {
     }
 }
 //return the result
-validity(playerSelection, computerChoice);
+console.log(validity(playerSelection, computerChoice));
