@@ -1,7 +1,7 @@
 //take user input
-let playerSelection = prompt("Enter your choice!");
+let playerSelection = "rock";
 //covert input into lowercase letters
-playerSelection = playerSelection.toLocaleLowerCase();
+playerSelection == playerSelection.toLocaleLowerCase();
 //check input's validity and call playRound if its valid
 function validity(playerSelection) {
     switch (playerSelection) {
